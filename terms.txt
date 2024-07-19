@@ -1,0 +1,85 @@
+1. Phishing attacks are a type of cyber attack where attackers try to deceive individuals into providing sensitive information such as usernames, passwords, credit card numbers, or other personal data. They often use social engineering tactics to trick victims into believing they are interacting with a legitimate entity. Ex: Email Phishing.
+
+2. SQL Injection is a type of cyber attack where attackers insert or "inject" malicious SQL code into a web application's database query. This can allow the attacker to view, modify, or delete data in the database, and in some cases, take control of the server hosting the database. Ex: Login Bypass.
+
+3. Cross-Site Scripting (XSS) is a type of security vulnerability typically found in web applications. XSS attacks occur when an attacker is able to inject malicious scripts into content that is delivered to other users. Ex: Stored XSS (Persistent XSS).
+
+4. Man-in-the-Middle (MitM) attacks are a type of cyber attack where an attacker secretly intercepts and possibly alters the communication between two parties who believe they are directly communicating with each other. Ex: Session Hijacking.
+
+5. Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS) attacks are types of cyber attacks aimed at making a machine, network resource, or service unavailable to its intended users by overwhelming it with a flood of illegitimate requests. Ex: Flood Attack.
+
+6. Ransomware attacks are a type of cyber attack where malicious software (ransomware) is used to encrypt the victim's data, rendering it inaccessible. The attacker then demands a ransom, typically in cryptocurrency, to provide the decryption key needed to restore access to the data. Ex: Crypto Ransomware.
+
+7. Social Engineering is a manipulation technique that exploits human error to gain private information, access, or valuables. These attacks often involve tricking individuals into breaking normal security procedures and can occur in various forms. Ex: Phishing.
+
+8. Network Sniffing is a technique used to capture and analyze data packets transmitted over a network. This can be used for legitimate purposes, such as network management and troubleshooting, but it can also be exploited by attackers to intercept sensitive information like passwords, emails, and other confidential data. Ex: Packet Sniffing.
+
+9. Password Cracking Techniques are methods used by attackers to gain unauthorized access to systems by uncovering passwords. These techniques exploit weak, common, or poorly protected passwords to breach accounts and systems. Ex: Brute Force.
+
+10. Zero-Day Exploits are cyber attacks that target vulnerabilities in software, hardware, or firmware that are unknown to the vendor and have not been patched. These exploits take advantage of security weaknesses before developers can create fixes, making them particularly dangerous and difficult to defend against. Ex: System Vulnerability.
+
+11. Baiting is a type of social engineering attack where attackers use the promise of an enticing item or information to lure victims into a trap that compromises their security. The bait is often something appealing to the victim, like free software, music, movies, or even physical items like USB drives. Once the victim takes the bait, they may be directed to a malicious website, download malware, or reveal sensitive information. Ex: Free Software Downloads.
+
+12. Gary McKinnon: Accused of hacking into 97 U.S. military and NASA computers, claiming to search for evidence of UFOs.
+
+13. რომელ პორტზე მუშაობს SSH? ბ. 22 +
+
+14. რა არის ფიშინგ სახის შეტევის მთავარი მიზანი? ბ. სისტემაზე არაავტორიზებული წვდომის მოპოვება + 
+
+15. რა სახის სერვისი მუშაობს 80 პორტზე? ა. HTTP + 
+
+16. რას ნიშნავს 0-day ( Zero-Day Exploit ) კიბერუსაფრთხოებაში? გ. შეტევას რომელიც ხდება უცნობი ტექნიკებით + 
+
+17. რომელი პროტოკოლი გამოიყენება ინტერნეტში უსაფრთხო კომუნიკაციისთვის გ. HTTPS +
+
+18. რა არის IDS (Intrusion Detection System) -ის გამოყენების მიზანი? ბ. ამონიტორინგოს და აღმოაჩინოს საეჭვო ქმედებები ქსელში + 
+
+19. TLS/SSL -ის რომელი ვერსია მიიჩნევა უსაფრთხოდ? დ. SSLv3.0 + 
+
+20. რა მიზანი აქვს TLS/SSL სერთიფიკატების გამოყენებას ვების უსაფრთხოებაში? ბ. სერვერის აუტენტიფიკაცია და დატის შიფრაცია გზაში + 
+
+21. ქვემოთ მოცემული მაგალითებიდან რომელიც წარმოადგენს უსაფრთხო პაროლს? გ. @Str0ngP@ssw0rd! +
+
+22. რა არის DdoS (Distributed Denial of Service) სახის შეტევის მიზანი? ბ. გადატვირთვა და გათიშვა სამიზნე სისტემის + 
+
+22. რა არის SIEM (Security Information and Event Monitoring) -ის მთავარი როლი? ბ. უსაფრთხოების ივენთების მონიტრინგი და ანალიზი რეალურ დროში + 
+
+23. რა არის ანტი ვირუსული პროგრამის მთავარი როლი? გ. აღმოაჩინოს და წაშალოს საფრთხისშემცველი ფაილები + 
+
+24. რისთვის არის საჭირო უსაფრთხოების პაჩების დაყენება ? ბ. სოფტვეარში სისუსტეების იდენტიფიცირებისთვის +  
+
+25. რა არის Nessus ? ბ. სისუსტეების სკანერი  +
+
+26. ჩამოთვლილთაგან რომელი სერვისი არის საფრთხის შემცველი? დ. Telnet + 
+
+27. nmap -p 1-1000 192.168.1.1
+
+28. nmap syn: nmap -sS <target>
+
+29. nmap idle: nmap -sI <zombie_ip> <target_ip>
+
+30. nmap aggressive: nmap -A <target>
+
+31. nmap os detection: nmap -O <target>
+
+32. ICMP: A protocol used for network diagnostics and control.
+
+33. Ping: A tool/utility that uses ICMP to check network connectivity.
+
+34. FTP Port: 20/21.
+
+35. Black Team: Simulates real-world attackers with no prior knowledge of the system, aiming to test defenses from an external perspective.
+    White Team: Oversees and ensures the integrity of security testing exercises, maintaining a neutral stance.
+    Red Team: Conducts ethical hacking and offensive security assessments to identify and exploit vulnerabilities, simulating an adversarial perspective.
+    Blue Team: Defends against attacks, focusing on detection, response, and mitigation of security incidents from a defensive perspective.
+    Purple Team: Enhances collaboration between Red and Blue Teams, integrating offensive and defensive strategies to improve overall security posture.
+
+35. A VPN (Virtual Private Network) is a technology that creates a secure and encrypted connection over a less secure network, such as the internet. VPNs are used to protect your online activity, maintain privacy, and allow secure access to remote networks.
+
+36. Port 3389 is the default port used by Microsoft's Remote Desktop Protocol (RDP).
+
+37. A Web Application Firewall (WAF) is a security system that monitors, filters, and blocks HTTP traffic to and from a web application.
+
+38. Port 443 is the default port used for HTTPS (Hypertext Transfer Protocol Secure).
+
+39. Information Characteristics: Include accuracy, completeness, consistency, timeliness, relevance, accessibility, confidentiality, and integrity, which define the quality and usability of information.
