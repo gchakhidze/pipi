@@ -1,0 +1,11 @@
+ზოგადი
+------------------
+sudo sendmail -xu USERNAME -xp PASSWORD -s smtp-relay.test.com:587 -f ADDRESS from (sender) email address -t ADDRESS to email address(es) -u  SUBJECT -m  MESSAGE -o NAME=VALUE    
+https://www.kali.org/tools/sendemail/
+
+---------------------
+
+კონკრეტული მაგალითი 
+----------------------------
+sudo sendmail -xu testmail@gmail.com -xp qweqe334@@#ADA -s smto-relay.brevo.com:587 -f "Mateo@btu.edu.ge" -t "Kovachich@btu.edu.ge"
+-u "final exam" -m "Gtxovt gamocdaze ar chamchrat <3" -o message-header="From:Mateo <mateo@btu.edu.ge>"                     
